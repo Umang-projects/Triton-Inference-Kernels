@@ -1,0 +1,8 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.so
+.ipynb_checkpoints/
+# Agar tu chahta hai ki ye 'runner' notebook upload NA ho (Safe side):
+*.ipynb
