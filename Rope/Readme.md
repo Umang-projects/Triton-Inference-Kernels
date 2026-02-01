@@ -4,7 +4,7 @@
 
 Rotary Positional Embedding (RoPE) is a positional encoding technique used in modern Large Language Models (Llama, Mistral, DeepSeek). It encodes position information by rotating query and key vectors in the embedding space.
 
-The rotation operation splits the embedding dimension in half and applies:
+The rotation operation splits the embedding dimension in half and applies: 
 ```
 y₁ = x₁ · cos θ - x₂ · sin θ
 y₂ = x₁ · sin θ + x₂ · cos θ
